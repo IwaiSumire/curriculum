@@ -1,9 +1,7 @@
 package study;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-
-import com.sun.tools.javac.util.List;
+import java.util.LinkedHashMap;
 
 /**
  * 本課題では、コレクションフレームワークのList系クラスとMap系クラスの基本的な記述を学びましょう。
@@ -21,12 +19,12 @@ public class Study {
 
     public static void main(String args[]) {
 
-        // ① 定数を全て使って、String型のListを記述してください。
+        // ① 定数を全て使って、String型のListを記述してください。*/
 ArrayList<String>  shohinList = new ArrayList<String>();
-shohinList.add("バナナ");
-shohinList.add("牛乳");
-shohinList.add("豚肉");
-shohinList.add("コロッケ");
+shohinList.add(SHOP_SHOHIN_00);
+shohinList.add(SHOP_SHOHIN_01);
+shohinList.add(SHOP_SHOHIN_02);
+shohinList.add(SHOP_SHOHIN_03);
 
 
 
@@ -43,10 +41,12 @@ shopMap.put(shohinList.get(3), 100);
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-for (int i = 0; i < shopMap.size(); i++) {
-    System.out.println(shopMap(shohinList.get(i),i));
+for (int i = 0; i < shohinList.size(); i++) {
+    System.out.println(shohinList.get(i) + "=" + shopMap.get(shohinList.get(i)) + "円になります！");
 
 
     }
 }
->
+}
+    
+
