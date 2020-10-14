@@ -20,33 +20,28 @@ public class Study {
     public static void main(String args[]) {
 
         // ① 定数を全て使って、String型のListを記述してください。*/
-ArrayList<String>  shohinList = new ArrayList<String>();
-shohinList.add(SHOP_SHOHIN_00);
-shohinList.add(SHOP_SHOHIN_01);
-shohinList.add(SHOP_SHOHIN_02);
-shohinList.add(SHOP_SHOHIN_03);
-
-
+        ArrayList<String> shohinList = new ArrayList<String>();
+        shohinList.add(SHOP_SHOHIN_00);
+        shohinList.add(SHOP_SHOHIN_01);
+        shohinList.add(SHOP_SHOHIN_02);
+        shohinList.add(SHOP_SHOHIN_03);
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
-         * [配列shopMapに１というキーと、１８０という値を登録した]
+         * [配列shopMapにshohinListの配列番号１のキーと、１８０という値を登録した]
          *
          */
-LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
-shopMap.put(shohinList.get(0), 125);
-shopMap.put(shohinList.get(1), 180);
-shopMap.put(shohinList.get(2), 350);
-shopMap.put(shohinList.get(3), 100);
+        LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
+        shopMap.put(shohinList.get(0), 125);
+        shopMap.put(shohinList.get(1), 180);
+        shopMap.put(shohinList.get(2), 350);
+        shopMap.put(shohinList.get(3), 100);
 
         // ③ カリキュラムを参考に拡張for文を使って、課題の画像と同じ表示になるよう記述してください。
         // 「shohinList」と「shopMap」が保持する値を上手く利用しましょう。
-for (int i = 0; i < shohinList.size(); i++) {
-    System.out.println(shohinList.get(i) + "=" + shopMap.get(shohinList.get(i)) + "円になります！");
+        for (String i : shohinList) {
+            System.out.println(i + "=" + shopMap.get(i) + "円になります！");
 
-
+        }
     }
 }
-}
-    
-
