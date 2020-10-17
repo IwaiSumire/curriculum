@@ -77,11 +77,31 @@
     }
 }
 @media(max-width:479px) {
-    .wrapper {
+    .header {
         width: 150px;
+    }
+    .left {
+        float:none;
+        width: 150px;
+    }
+    .yellow {
         float: none;
+        width: 150px;
     }
-    .content {
-        width: none;
+    .blue {
+        float: none;
+        width:150px;
     }
+    .pink {
+        float:none;
+        width:150px;
+    }
+    .cha {
+        float: none;
+        width:150px;
+    }
+    .footer {
+        width: 150px;
+    }
+
 }
