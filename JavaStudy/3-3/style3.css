@@ -85,31 +85,43 @@
 @media(max-width:479px) {
 .header {
     width: 200px;
-    height: 250px;
+    height: 180px;
+    padding-top: 10px;
+}
+.threesquare {
+    
+    
 }
 .one2 {
-    margin: 0 auto;
     float: none;
+    margin: 0 auto;
+    margin-bottom: -10px;
 }
 .two2 {
     float: none;
     margin: 0 auto;
+    margin-bottom: -10px;
 }
 .three2 {
-    float:none;
+    float: none;
     margin: 0 auto;
 }
 .left {
     width: 200px;
     float: none;
+    height: 100px;
 }
 .right {
     width: 200px;
     float: none;
+    padding-top: 20px;
+    height: 190px;
 }
 .one {
-    margin-left: 30px;
     float: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
 }
 .tow {
     float: none;
@@ -119,7 +131,6 @@
 .three {
     float:none;
     margin: 0 auto;
-    
 }
 .footer {
     width: 200px;
