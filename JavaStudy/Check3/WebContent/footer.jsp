@@ -6,33 +6,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style type="text/css">
-div{padding-top: 50px;
-padding-bottom: 50px;}
+div {background-color: gray;}
+label{display: inline-block;
+padding: 10px;
+color: white;}
 </style>
 </head>
 <body>
 
-<!-- name、idの入力エリアを作成しなさい -->
-
-<%@ include file="header.jsp" %>
-
+<!-- フッターを作成 -->
 <div>
-
-<table>
-<tr>
-<th>name</th><td>     </td>
-</tr>
-</table>
-<table>
-<tr>
-<th>id</th><td>      </tr>
-</tr>
-</table>
-
+<label>hoge.Inc</label>
 </div>
-<%@ include file="footer.jsp" %>
 
 </body>
-
-
-</html>>
+</html>
