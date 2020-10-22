@@ -5,10 +5,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
-div{padding-top: 50px;
-padding-bottom: 50px;}
-</style>
+<link rel="stylesheet"  href="css/style.css">
+
 </head>
 <body>
 
@@ -16,23 +14,25 @@ padding-bottom: 50px;}
 
 <%@ include file="header.jsp" %>
 
-<div>
+<div class="form">
 
 <table>
 <tr>
-<th>name</th><td>     </td>
+<th><p class="tagu">name</p></th>
+<td><p class="text"></p></td>
 </tr>
 </table>
+
 <table>
 <tr>
-<th>id</th><td>      </tr>
+<th><p class="tagu">id</p></th>
+<td><p class="text"></p></td>
 </tr>
 </table>
 
 </div>
+
+
 <%@ include file="footer.jsp" %>
-
 </body>
-
-
-</html>>
+</html>

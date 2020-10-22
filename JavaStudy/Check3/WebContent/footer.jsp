@@ -5,18 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
-div {background-color: gray;}
-label{display: inline-block;
-padding: 10px;
-color: white;}
-</style>
+<link rel="stylesheet"  href="css/style.css">
 </head>
 <body>
-
 <!-- フッターを作成 -->
-<div>
-<label>hoge.Inc</label>
+<div class="footer">
+<label class="footerlabel">hoge.Inc</label>
 </div>
 
 </body>
