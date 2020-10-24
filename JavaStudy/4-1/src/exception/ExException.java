@@ -68,6 +68,8 @@ public class ExException {
      catch (NullPointerException e) {
         // TODO: handle exception
         //例外が発生するとこの処理をする
+         System.out.print(e);
+         System.out.println(":" + CONST_MSG_NULLPO);
     }
 
 
@@ -120,7 +122,7 @@ public class ExException {
 
      int bbb = aaa.length();
 
-     System.out.println(CONST_MSG_NULLPO);
+     
 
  }
  /**
