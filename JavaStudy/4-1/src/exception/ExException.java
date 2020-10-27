@@ -62,15 +62,9 @@ public class ExException {
   // 問①は最下部にもあります。
   // ルール: ここへ作成したメソッドを呼び出す
 
-     try {
+
          NullPointerException(null);
-     }
-     catch (NullPointerException e) {
-        // TODO: handle exception
-        //例外が発生するとこの処理をする
-         System.out.print(e);
-         System.out.println(":" + CONST_MSG_NULLPO);
-    }
+
 
 
  break;
@@ -122,7 +116,6 @@ public class ExException {
 
      int bbb = aaa.length();
 
-     
 
  }
  /**
