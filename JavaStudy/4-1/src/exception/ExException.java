@@ -116,7 +116,6 @@ public class ExException {
 
      int bbb = aaa.length();
 
-
  }
  /**
  * 例外処理のメッセージを出力
@@ -124,6 +123,6 @@ public class ExException {
  * @param e 発生した例外
  */
  private static void printException(final Exception e) {
- System.out.println(e);
+ System.out.println(e + ": " + CONST_MSG_NULLPO);
  }
 }
