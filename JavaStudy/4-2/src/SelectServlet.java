@@ -21,6 +21,8 @@ public class SelectServlet extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
         // 問② エビデンスと同じ表示になるように修正しましょう。
-        out.println("<body></body>");
+
+        out.print("<p>今は" + value + "月です。</p>");
+
     }
 }
