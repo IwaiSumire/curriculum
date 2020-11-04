@@ -30,7 +30,7 @@ public class Mokumoku1 {
         }
         try {
             // 20201031をtimeに作成
-            String time = year + month + day;
+            String time = month + "/" + day + "/" + year;
             // 月/日/年になるようにフォーマットを指定
             SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
             // 20201031をDate型に変更する
