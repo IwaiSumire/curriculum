@@ -34,8 +34,8 @@ public class EmployeeController extends HttpServlet {
  EmployeeService controller = new EmployeeService();//設計図,ここcontrollerで使いたい
  
   // 問③ EmployeeBeanに、EmployeeServiceよりsearch関数(処理のまとまり)を呼び出し、返り値を格納する。
- pcontroller.search(id, password) 
- }
+ controller.search(id, password)
+ 
  
   // 問④ nullの部分に適切な引数をセットする。
  request.setAttribute("EmployeeBean", null);
