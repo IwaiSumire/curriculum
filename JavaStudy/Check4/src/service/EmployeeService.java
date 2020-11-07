@@ -35,7 +35,7 @@ public class EmployeeService {
  
   // 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
  /** ・SQL SELECT文 */
- private static final String SQL_SELECT = "ここを改修";
+ private static final String SQL_SELECT = "select ";
  
  EmployeeBean employeeDate = null;
  
@@ -67,6 +67,7 @@ public class EmployeeService {
   // preparedStatementに実行したいSQLを格納
  preparedStatement = connection.prepareStatement(SQL_UPDATE);
   // 問④ preparedStatementを使って、一番目のindexに今の時間をセットしてください。2番目のindexにIDをセットしてください。
+ 
  
   // 問⑤ UPDATEを実行する文を記述
  
