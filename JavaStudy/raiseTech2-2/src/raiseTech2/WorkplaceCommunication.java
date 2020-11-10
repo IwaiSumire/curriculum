@@ -7,18 +7,18 @@ class WorkplaceCommunication implements Communication { // 職場の場合のコ
         System.out.println("Hello①");// Helloと挨拶してね
     }
 
-    public void greet(String hito, String greet) { // 人によって挨拶を変える
-        System.out.println(hito + greet);
+    public void greet(String human, String greet) { // 人によって挨拶を変える
+        System.out.println(human + "さん" + greet);
 
     }
 
     public void greet(String human, int position) {
         try { // 例外が発生する処理
-            int m = 50 / position;// ゼロで割ることはできない。エラー
+            int m = 100 / position;// ゼロで割ることはできない。=勤続ゼロ年。エラー
             if (m < 0) {
                 throw new Exception(); // エラーを発生させる
             } else {
-                int j = 50 - m;
+                int j = 50 - position;
                 System.out.println(human + "さんは勤続50年まであと" + j + "年あります");
             }
         } catch (Exception e) { // エラーが発生したらどうするか書く
