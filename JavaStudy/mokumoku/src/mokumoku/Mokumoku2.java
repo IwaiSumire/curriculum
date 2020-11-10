@@ -32,9 +32,12 @@ public class Mokumoku2 {
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] == k) {
-                System.out.println(i+1);
+                System.out.println(i + 1);
                 break;
             }
+        }
+        if (Arrays.asList(a).contains(k)) {
+            System.out.println(k + "は配列の中にあります");
         }
     }
 }
