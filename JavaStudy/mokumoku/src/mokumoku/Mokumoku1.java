@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Mokumoku1 {
 
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
 
         String year = null;
         String month = null;

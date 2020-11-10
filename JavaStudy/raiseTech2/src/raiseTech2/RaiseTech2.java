@@ -3,7 +3,8 @@ package raiseTech2;
 import java.math.BigDecimal;
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class RaiseTech2 {
 
@@ -63,20 +64,23 @@ public class RaiseTech2 {
 
         // コレクション型は割愛。String型のListかMapを作成して、その内容をコンソール画面に表示してみよう。
         // Listに入れる内容は何でもOK。ただし複数入れる事
-        HashMap<String, String> map = new HashMap<String, String>();
+        Map<String, String> map = new LinkedHashMap<String, String>();
+//        普通のHashMapだと順番に表示されない。 LinkedHashMapだと順番が保持される
+//        ちなみにTreeMapだとkeyの昇順になる
         map.put("校長", "エナミ先生");
         map.put("講師", "朴先生");
         map.put("メンター", "野田先生");
         map.put("生徒", "すみちゃん");
 
         for (String key : map.keySet()) {
-            System.out.println(key);
+            System.out.println(key + "の" + map.get(key));
         }
 
         BigDecimal bdNum1 = new BigDecimal("1");// コンストラクタの引数
         BigDecimal bdNum2 = new BigDecimal("0.9");
         BigDecimal bdNum3 = new BigDecimal("0.9");
 
+//        下記からは課題以外です。↓↓↓
         System.out.println(bdNum1.add(bdNum2).add(bdNum3));// addはメソッド メソッド（）
         // メソッドを実行して、その結果に対してさらにメソッドを実行する感じで、
         // メソッドを繋げながら何らかの処理をしていく仕組み
