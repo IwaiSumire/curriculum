@@ -34,11 +34,11 @@ class WorkplaceCommunication implements Communication { // 職場の場合のコ
         System.out.println(greet);
     }
 
-    public static boolean isWorkplace(String a) {
+    public static boolean isWorkplace(String place) {
 
-        String b = "workplace";
+        String workplace = "workplace";
 
-        if (a.equals(b)) {
+        if (workplace.equals(place)) {
             return true;
         } else {
             return false;

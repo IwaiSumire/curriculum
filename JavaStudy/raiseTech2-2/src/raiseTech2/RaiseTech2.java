@@ -13,9 +13,9 @@ public class RaiseTech2 {
         wc.greet("部下1", 3);// 勤続50年までどれくらいか エラーなしver
         wc.greet("部下2", 0);// 勤続50年までどれくらいか エラーありver
 
-        String a = "workplace";
+        String place = "workplace";
 
-        if (WorkplaceCommunication.isWorkplace(a)) {
+        if (WorkplaceCommunication.isWorkplace(place)) {
             wc.greet();
         } else {
             System.out.println("無視する");
