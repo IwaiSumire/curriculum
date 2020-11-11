@@ -36,8 +36,8 @@ public class Mokumoku2 {
                 break;
             }
         }
-        if (Arrays.asList(a).contains(k)) {
-            System.out.println(k + "は配列の中にあります");
-        }
+
+
+
     }
 }

@@ -36,7 +36,7 @@ class WorkplaceCommunication implements Communication { // 職場の場合のコ
 
     public static boolean isWorkplace(String place) {
 
-        String workplace = "workplace";
+        String workplace = "職場";
 //場所が、職場であるなら真を返す
         if (workplace.equals(place)) {
             return true;
