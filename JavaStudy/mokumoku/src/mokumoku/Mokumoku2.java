@@ -13,8 +13,10 @@ public class Mokumoku2 {
         int n = sc.nextInt();
         // 例:2名分いれます
 
-        int a[] = new int[n];
+        Integer a[] = new Integer[n];
         // a配列の箱がn（例:2）個作られた
+
+
 
         System.out.println(n + "人分の持っているお金を順番に入力してください");
         for (int i = 0; i < n; i++) {
@@ -37,6 +39,13 @@ public class Mokumoku2 {
             }
         }
 
+
+        if(Arrays.asList(a).contains(k)){
+            System.out.println("あります");
+       }
+
+
+        sc.close();
 
 
     }
