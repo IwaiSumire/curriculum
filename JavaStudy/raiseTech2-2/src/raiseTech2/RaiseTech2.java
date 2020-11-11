@@ -30,7 +30,7 @@ public class RaiseTech2 {
         } else {
             System.out.println("挨拶しません。無視する");
         }
-
+        sc.close();
     }
 
 }
