@@ -15,15 +15,14 @@ public class RaiseTech2 {
         wc.greet("トベ", 3);// 勤続50年までどれくらいか エラーなしver
         wc.greet("松田", 0);// 勤続50年までどれくらいか エラーありver
 
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("所属場所を入力してください（例：職場）");
 
-        String place2 = sc.nextLine();
+        String place = sc.nextLine();
 
 //        職場ならば、挨拶する
-        if (WorkplaceCommunication.isWorkplace(place2)) {
+        if (WorkplaceCommunication.isWorkplace(place)) {
 //            falseならば挨拶する
             System.out.println("挨拶は");
             wc.greet();

@@ -11,7 +11,7 @@ public class RaiseTech2 {
     public static void main(String[] args) {
         // コンソールに「HelloWorld」を表示してみよう。
         // 変数greetingをString型で定義して、そこに値を代入してから表示する事。
-        String greeting = "HelloWorid";
+        String greeting = "HelloWorld";
         System.out.println(greeting);
 
         // コンソールに1～10まで足した結果を表示してみよう。
