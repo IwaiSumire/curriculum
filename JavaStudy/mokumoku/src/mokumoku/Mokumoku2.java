@@ -13,7 +13,7 @@ public class Mokumoku2 {
         int n = sc.nextInt();
         // 例:2名分いれます
 
-        Integer a[] = new Integer[n];
+        int a[] = new int[n];
         // a配列の箱がn（例:2）個作られた
 
         System.out.println(n + "人分の持っているお金を順番に入力してください");
@@ -28,7 +28,7 @@ public class Mokumoku2 {
 
         System.out.println("入力した金額を所持している人が何番目に入力されたか表示できます");
         System.out.println("なお、同じ金額を所持している場合は早く入力した方が表示されます");
-        int k = sc.nextInt();
+        Integer k = sc.nextInt();
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] == k) {
@@ -36,7 +36,8 @@ public class Mokumoku2 {
                 break;
             }
         }
-
+        
+        
         if (Arrays.asList(a).contains(k)) {
             System.out.println("あります");
         } else {
