@@ -3,6 +3,10 @@ package exception;
 public class Exception2 {
 
     public static void main(String[] args) {
+        
+        int[] arry1 = {1,2,3};
+        System.out.println(arry1);
+        
         try {
 //            try内でエラーが起きるかもしれない処理を書く
 //            けどtryには書かなくて、エラーが起きそうな処理をメソッド化する

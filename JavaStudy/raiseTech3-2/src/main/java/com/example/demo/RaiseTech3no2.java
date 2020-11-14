@@ -9,6 +9,7 @@ public class RaiseTech3no2 {
     @RequestMapping("/")
     //URLの最後
     String sample(Model model) { //Modelは画面を表す
+        
         model.addAttribute("name","朴先生!");
 //        Attributeとは属性のこと
 
