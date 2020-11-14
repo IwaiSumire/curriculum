@@ -1,0 +1,21 @@
+メソッドチェーンとは
+メソッドを実行して、その結果に対してさらにメソッドを実行する
+メソッド().メソッド().メソッド() とかく
+
+BigDecimalの場合
+System.out.println(no1.add(no2).add(no3))
+メソッドはaddなので、add().add()をしている
+no1とno2をaddを実行した後、さらにno3をaddする
+
+
+自分自身ををチェーンする場合
+TY.oyogu().oyogu().oyogu();
+
+public taiyaki oyogu() {
+        System.out.println("すいすい泳ぐ");
+        String tukaerta = null;
+        return this;
+    }
+最初はTYのコンストラクタが実行される。
+return thisは自分自身を返している。
+oyogu()メソッドを３回繰り返すことになる
