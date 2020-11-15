@@ -1,0 +1,107 @@
+.wrapper {
+    width: 100%;
+}
+.content {
+    width: 400px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+.left {
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+.yellow {
+    height: 50px;
+    width:150px;
+    background-color: #dbd400;
+    float: left;
+}
+.blue {
+    height: 100px;
+    width:150px;
+    background-color: #0093b7;
+    float: left;
+}
+.pink {
+    height: 150px;
+    width:100px;
+    background-color: #ff9e6b;
+    float: left;
+}
+.cha {
+    height: 100px;
+    width: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:765px) {
+    .header {
+        width: 300px;
+    }
+    .left {
+        width: 100px;
+    }
+    .yellow {
+        width: 125px;
+    }
+    .blue {
+        width: 125px;
+    }
+    .pink {
+        width: 75px;
+    }
+    .cha {
+        width: 200px;
+    }
+    .footer {
+        width: 300px;
+    }
+}
+@media(max-width:479px) {
+    .header {
+        width: 150px;
+    }
+    .left {
+        float:none;
+        width: 150px;
+    }
+    .yellow {
+        float: none;
+        width: 150px;
+    }
+    .blue {
+        float: none;
+        width:150px;
+    }
+    .pink {
+        float:none;
+        width:150px;
+    }
+    .cha {
+        float: none;
+        width:150px;
+    }
+    .footer {
+        width: 150px;
+    }
+
+}
