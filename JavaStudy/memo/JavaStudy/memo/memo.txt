@@ -10,4 +10,9 @@
 オーバーロード　違う数の引数を渡して、結果を変えること
 
 git練習用に追加2
+<<<<<<< Updated upstream:JavaStudy/memo/JavaStudy/memo/memo.txt
 これが本当に最新git
+=======
+11/15 14:20
+
+>>>>>>> Stashed changes:JavaStudy/memo/memo.txt
