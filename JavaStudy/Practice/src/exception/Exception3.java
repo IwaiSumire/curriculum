@@ -8,23 +8,23 @@ public class Exception3 {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("1～10までを入力してください");
+
         int n = sc.nextInt();
 
         sc.close();
 
-        String k = null;
-
         try {
 
-            if (n > k.length()) {
-                throw new NullPointerException();
+            if (n > 10) {
+                throw new IllegalArgumentException();
             }
 
             System.out.println("例外ではありませんでした");
 
-        } catch (NullPointerException e) {
-            System.out.println("例外でした");
+        } catch (IllegalArgumentException e) {
             System.out.println(e);
+            System.out.println("入力の値が10以上で正しくありません");
         }
 
     }
